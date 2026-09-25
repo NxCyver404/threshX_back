@@ -1,0 +1,1 @@
+{"rewrites": [{"source": "/owner/tool/auth/:path*", "destination": "/api/auth"}]}
