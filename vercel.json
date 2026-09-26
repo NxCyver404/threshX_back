@@ -1,1 +1,7 @@
-{"rewrites": [{"source": "/owner/tool/auth/:path*", "destination": "/api/auth"}]}
+{
+  "rewrites": [
+    { "source": "/owner/tool/auth/:path*", "destination": "/api/auth" },
+    { "source": "/mint/:path*", "destination": "/api/mint" },
+    { "source": "/meta/:path*", "destination": "/api/meta" }
+  ]
+}
